@@ -1,10 +1,10 @@
-# Seat Belt System
+# Seat Belt System 🚗 🛡️
 This is an **Embedded System** Project designed to improve an passenger safety during vehicle accidents.The system detects potential accidents using the sensors,
 then automatically tightens the seat belt to reduce the injury. It also sends a emergency message to a desired contact through bluetooth when an accident is detected.
 
 ### This project demonstrates the use of sensors, microcontrollers, motor control, and communication for an automotive safety application
 
-# Components Used
+# 🛠️ Components Used
 - #### Arduino Uno - Main microcontroller controlling the system
 - #### Ultrasonic Sensor - Detect nearby objects
 - #### Bluetooth Module - Low power communication b/w electronic devices
@@ -13,7 +13,7 @@ then automatically tightens the seat belt to reduce the injury. It also sends a 
 - #### Stepper Motor - Electric motor, converts physical pluse into mechanical motion
 - #### Motor Driver - Acts as an interface b/w the microcontroller and electric motor
 
-# Working Principle 
+# 🧠 Working Principle 
 - ## Environment Monitoring
 The ultrasonic sensor continuously measures the distance between the vehicle and nearby objects.
 - ## Collision Detection
@@ -28,7 +28,7 @@ The Vibration sensor detects sudden shock or impact, which indicats the collisio
 - ## Emergency Notification
 The Bluetooth module sends an alert message, includes the location, indicating that an accident occured.
 
-# Project Structure
+# 📂 Project Structure
 ```
 Seat Belt System/
 │
@@ -46,7 +46,7 @@ Seat Belt System/
 └──Readme.md
 ```
 
-# Challenges Faced
+# 🚀 Challenges Faced
 - #### Difficulty in developing the physical prototype structure of the system
 - #### Ultrasonic sensor limitation in measuring velocity and distance simultaneously
 - #### Calibration of seat belt tightening mechanism
@@ -56,11 +56,11 @@ Seat Belt System/
       - 3/10 times failed
 - #### Delay in seat belt tightening response
 
-# Future Improvements
+# 🔮 Future Improvements
 ### Prototype can be Improved further by,
 - #### Integrate vehicle speed sensors
 - #### Machine learning models for accident prediction
 - #### Improving mechanical design for real automotive deployment
 
-# License
+# ⚖️ License
 - This project is developed for **Academic purposes** as part of an **Embedded system** course project.
